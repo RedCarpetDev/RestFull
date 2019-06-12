@@ -14,7 +14,7 @@ public class MessageJerseyClient {
 	
 		
 		WebResource webResource = client
-				   .resource("http://localhost:8282/dictionnaireREST/rest/message/get");
+				   .resource("http://localhost:8282/RESTfulExample/rest/json/metallica/en/getMessages");
 
 				ClientResponse response = webResource.accept("application/json")
 		                   .get(ClientResponse.class);
