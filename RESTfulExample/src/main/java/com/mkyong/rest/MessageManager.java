@@ -58,10 +58,10 @@ public class MessageManager {
 		}
 	}
 	
-	/*public void removeMessage2(String langIsoCode, String key, String value) {
+	public void removeMessage2(String langIsoCode, String key, String value) {
 		if(dictionnaires.containsKey(langIsoCode)) {
 			HashMap<String, String> dico = dictionnaires.get(langIsoCode);
 			dico.remove(key);
 		}
-	}*/
+	}
 }
